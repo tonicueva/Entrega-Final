@@ -1,0 +1,255 @@
+h2 {
+  font-family: 'Noto Serif', serif; }
+
+h3 {
+  font-family: 'Nunito Sans', sans serif; }
+
+h4 {
+  font-family: 'Hind Madurai', sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 0.60px; }
+
+@media only screen and (min-width: 768px) {
+  .texto1index {
+    padding-left: 100px; }
+  .mentoriasTxtUno {
+    padding-left: 100px; } }
+
+/*Inicio Index*/
+body {
+  font-size: 20px !important;
+  background-color: pink !important; }
+
+a {
+  text-decoration: none;
+  list-style-type: none; }
+
+h2 {
+  font-size: 40px; }
+
+h3 {
+  font-size: 35px; }
+
+.navMia {
+  margin-bottom: 75px; }
+
+.tituloFeminanzas {
+  font-family: 'Noto Serif', serif; }
+
+.logoFeminanzas {
+  width: 100px;
+  height: 100px; }
+
+.navbar-brand {
+  font-size: 30px; }
+
+#navbarNav {
+  justify-content: flex-end; }
+
+.nav-item {
+  padding-left: 20px; }
+
+.imgFeminanzas {
+  width: 300px;
+  height: 300px; }
+
+.contenedorImgFeminanzas {
+  display: flex;
+  justify-content: center; }
+
+.contenedorTextoFeminanzas {
+  display: flex;
+  align-items: center;
+  font-family: 'Nunito Sans', sans-serif; }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px; }
+
+.botonCursoMentoria {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.botonDeIndex {
+  font-size: 40px; }
+
+.divBotonesIndex {
+  margin-top: 100px;
+  margin-bottom: 75px; }
+
+.btn {
+  color: black; }
+
+/*ANIMACIONES INDEX*/
+@media only screen and (min-width: 769px) {
+  .logoFeminanzas:hover {
+    transform: rotate(360deg);
+    transition: all 3s; }
+  .nav-item:hover {
+    transform: scale(1.25, 1.25);
+    transition: all 1s; }
+  .imgFeminanzas:hover {
+    transform: scale(1.25, 1.25);
+    transition: all 1s; } }
+
+/*FIN ANIMACIONES INDEX*/
+/*Fin Index*/
+/* INCIO FOOTER */
+.tituloEnFooter {
+  font-family: 'Noto Serif', serif; }
+
+.imgRRSS {
+  width: 40px;
+  height: 40px; }
+
+.footerClass {
+  height: 80px;
+  background-color: #EE9CCB;
+  margin-top: 35px;
+  display: flex;
+  align-items: center; }
+
+.footerElemento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+/* FIN FOOTER */
+/* Inicio PAGES CURSOS */
+.cursosCss {
+  display: flex;
+  justify-content: center;
+  font-size: 40px; }
+
+.cursoElegible {
+  font-size: 30px; }
+
+.imgCursoUno {
+  width: 300px;
+  height: 300px; }
+
+.txtCurso {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family: roboto, sans serif; }
+
+.imgCurso {
+  display: flex;
+  justify-content: center; }
+
+.txtImgCurso {
+  margin-top: 45px; }
+
+.tituloCurso {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px; }
+
+/*INICIO ANIMACIONES PAGES CURSOS*/
+@media only screen and (min-width: 769px) {
+  .row .cursosCss h3:hover {
+    transform: scale(1.25, 1.25);
+    transition: all 1s; }
+  .imgCursoUno:hover {
+    transform: scale(1.2, 1.2);
+    transition: all 1.5s; } }
+
+/*FIN ANIMACIONES PAGES CURSOS*/
+/*FIN PAGES CURSOS*/
+/*INICIO PAGES MENTORIAS*/
+.mentoriasTxt {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px; }
+
+.mentoriasTitulo {
+  display: flex;
+  justify-content: center; }
+
+.contenedorBotonInscribite {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
+
+.botonInscribite {
+  font-size: 40px; }
+
+/*FIN PAGES MENTORIAS*/
+/*INICIO QUIEN SOY*/
+.contenedorFotoQuienSoy {
+  display: flex;
+  justify-content: center; }
+
+.fotoQuienSoy {
+  width: 200px;
+  height: auto; }
+
+.quienSoyTitulo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px; }
+
+.nombre {
+  display: flex;
+  justify-content: center; }
+
+.contactoTitulo {
+  display: flex;
+  justify-content: center; }
+
+.rowDeContacto {
+  margin-top: 110px; }
+
+.enviarBoton {
+  display: flex;
+  justify-content: flex-end; }
+
+/*FIN QUIEN SOY*/
+/*INICIO PAGES OPINIONES*/
+.opinionCard {
+  display: flex;
+  justify-content: center; }
+
+/*FIN PAGES OPINIONES*/
+/*MEDIA QUERIE MOBILE*/
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  h2 {
+    font-size: 30px;
+    text-align: center; }
+  h3 {
+    font-size: 25px;
+    text-align: center; }
+  h4 {
+    font-size: 20px;
+    text-align: center; }
+  .tituloFeminanzas {
+    font-size: 20px; }
+  .logoFeminanzas {
+    width: 50px;
+    height: auto; }
+  .imgFeminanzas {
+    width: 150px;
+    height: auto; }
+  .footerElemento {
+    width: 33%; }
+  .imgRRSS {
+    width: 30px;
+    height: auto; }
+  .botonDeIndex {
+    font-size: 20px; }
+  .divBotonesIndex {
+    margin-top: 50px;
+    margin-bottom: 40px; }
+  .contenedorTextoFeminanzas {
+    padding-top: 30px; }
+  .contenedorFotoQuienSoy {
+    display: flex;
+    justify-content: center; } }
+
+/*FIN MEDIA QUERIE MOBILE*/

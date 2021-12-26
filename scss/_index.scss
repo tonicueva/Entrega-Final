@@ -1,0 +1,108 @@
+/*Inicio Index*/
+body {
+	font-size: 20px !important;
+	background-color: pink !important;
+}
+
+a {
+	text-decoration: none;
+	list-style-type: none;
+}
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 35px;
+}
+
+.navMia {
+	margin-bottom: 75px;
+}
+
+.tituloFeminanzas {
+	font-family: 'Noto Serif', serif;
+}
+
+.logoFeminanzas {
+	width: 100px;
+	height: 100px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+}
+
+#navbarNav {
+	justify-content: flex-end;
+}
+
+.nav-item{
+	padding-left: 20px;
+}
+
+.imgFeminanzas {
+	width: 300px;
+	height: 300px;
+}
+
+.contenedorImgFeminanzas {
+	display: flex;
+	justify-content: center;
+}
+
+.contenedorTextoFeminanzas {
+	display: flex;
+	align-items: center;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.botonCursoMentoria {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.botonDeIndex {
+	font-size: 40px;
+}
+
+.divBotonesIndex {
+	margin-top: 100px;
+	margin-bottom: 75px;
+}
+
+.btn {
+	color: black;
+}
+
+/*ANIMACIONES INDEX*/
+
+@media only screen and (min-width: 769px) {
+
+.logoFeminanzas:hover {
+	transform: rotate(360deg);
+	transition: all 3s;
+}
+
+.nav-item:hover {
+	transform: scale(1.25,1.25);
+	transition: all 1s;
+}
+
+.imgFeminanzas:hover {
+	transform: scale(1.25,1.25);
+	transition: all 1s;
+}
+}
+/*FIN ANIMACIONES INDEX*/
+
+/*Fin Index*/

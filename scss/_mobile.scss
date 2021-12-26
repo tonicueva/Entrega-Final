@@ -1,0 +1,50 @@
+/*MEDIA QUERIE MOBILE*/
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+	h2 {
+		font-size: 30px;
+		text-align: center;
+	}
+	h3 {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	h4 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.tituloFeminanzas {
+		font-size: 20px;
+	}
+	.logoFeminanzas {
+		width: 50px;
+		height: auto;
+	}
+	.imgFeminanzas {
+		width: 150px;
+		height: auto;
+	}
+	.footerElemento {
+		width: 33%;
+	}
+	.imgRRSS {
+		width: 30px;
+		height: auto;
+	}
+	.botonDeIndex {
+		font-size: 20px;
+	}
+	.divBotonesIndex {
+		margin-top: 50px;
+		margin-bottom: 40px;
+	}
+	.contenedorTextoFeminanzas {
+		padding-top: 30px;
+	}
+	.contenedorFotoQuienSoy {
+		display: flex;
+		justify-content: center;
+	}
+}
+/*FIN MEDIA QUERIE MOBILE*/

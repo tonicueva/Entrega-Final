@@ -1,0 +1,36 @@
+/*INICIO QUIEN SOY*/
+.contenedorFotoQuienSoy {
+	display: flex;
+	justify-content: center;
+}
+
+.fotoQuienSoy {
+	width: 200px;
+	height: auto;
+}
+
+.quienSoyTitulo {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+
+.nombre {
+	display: flex;
+	justify-content: center;
+}
+
+.contactoTitulo {
+	display: flex;
+	justify-content: center;
+}
+
+.rowDeContacto {
+	margin-top: 110px;
+}
+
+.enviarBoton {
+	display: flex;
+	justify-content: flex-end;
+}
+/*FIN QUIEN SOY*/

@@ -1,0 +1,54 @@
+/* Inicio PAGES CURSOS */
+.cursosCss {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+}
+
+.cursoElegible {
+	font-size: 30px;
+}
+
+.imgCursoUno {
+	width: 300px;
+	height: 300px;
+}
+
+.txtCurso {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	font-family: roboto, sans serif;
+}
+
+.imgCurso {
+	display: flex;
+	justify-content: center;
+}
+
+.txtImgCurso {
+	margin-top: 45px;
+}
+
+.tituloCurso {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+/*INICIO ANIMACIONES PAGES CURSOS*/
+@media only screen and (min-width: 769px){
+
+.row .cursosCss h3:hover {
+	transform: scale(1.25,1.25);
+	transition: all 1s;
+}
+
+.imgCursoUno:hover {
+	transform: scale(1.2, 1.2);
+	transition: all 1.5s;
+}
+}
+/*FIN ANIMACIONES PAGES CURSOS*/
+
+/*FIN PAGES CURSOS*/
