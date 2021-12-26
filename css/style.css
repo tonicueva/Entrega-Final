@@ -180,6 +180,67 @@ h3 {
 .botonInscribite {
   font-size: 40px; }
 
+.elementoNavMentorias {
+  text-decoration: none;
+  color: black; }
+
+.navBarMentorias {
+  font-family: 'roboto', sans-serif;
+  list-style-type: none; }
+
+@media only screen and (min-width: 0px) and (max-widht: 768px) {
+  .contenedorPadreMentorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px;
+    grid-template-areas: "mentoriasTxtUno mentoriasTxtDos mentoriasTxtTres"; }
+  .mentoriasTxtUno {
+    grid-area: mentoriasTxtUno; }
+  .mentoriasTxtDos {
+    grid-area: mentoriasTxtDos; }
+  .mentoriasTxtTres {
+    grid-area: mentoriasTxtTres; } }
+
+@media only screen and (min-width: 1024px) {
+  .navBarMentorias {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none; }
+  .elementoNavMentorias {
+    padding-left: 20px;
+    text-decoration: none; }
+  .contenedorLogoyNav {
+    display: flex;
+    flex-direction: row; }
+  .navMentorias {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 40px; }
+  .contenedorTituloFeminanzasMentorias {
+    display: flex;
+    align-items: center; }
+  .contenedorTituloFeminanzasMentorias {
+    margin-left: 20px; }
+  .logoFeminanzasMentorias {
+    margin-left: 40px;
+    margin-top: 20px; }
+  .tituloEnMentorias {
+    font-size: 30px;
+    font-family: 'Noto Serif', serif; }
+  .contenedorPadreMentorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px;
+    grid-template-areas: "mentoriasTxtUno mentoriasTxtDos mentoriasTxtTres"; }
+  .mentoriasTxtUno {
+    grid-area: mentoriasTxtUno; }
+  .mentoriasTxtDos {
+    grid-area: mentoriasTxtDos; }
+  .mentoriasTxtTres {
+    grid-area: mentoriasTxtTres; } }
+
 /*FIN PAGES MENTORIAS*/
 /*INICIO QUIEN SOY*/
 .contenedorFotoQuienSoy {
