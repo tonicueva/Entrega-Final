@@ -74,6 +74,10 @@ h3 {
   justify-content: center;
   align-items: center; }
 
+.botonCursoMentoria a {
+  color: black;
+  text-decoration-line: blink; }
+
 .botonDeIndex {
   font-size: 40px; }
 
