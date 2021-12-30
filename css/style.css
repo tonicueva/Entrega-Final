@@ -119,6 +119,14 @@ h3 {
   align-items: center;
   text-align: center; }
 
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .RRSSTelegram {
+    margin-left: 10px; } }
+
+@media only screen and (min-width: 1024px) {
+  .RRSSTelegram {
+    margin-left: 20px; } }
+
 /* FIN FOOTER */
 /* Inicio PAGES CURSOS */
 .cursosCss {
