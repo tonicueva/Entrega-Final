@@ -119,7 +119,7 @@ h3 {
   align-items: center;
   text-align: center; }
 
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 0px) and (max-widht: 768px) {
   .RRSSTelegram {
     margin-left: 10px; } }
 
@@ -240,7 +240,7 @@ h3 {
   .mentoriasTxtTres {
     grid-area: mentoriasTxtTres; } }
 
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 0px) and (max-widht: 768px) {
   .imgLogoM {
     display: flex;
     justify-content: center; }
