@@ -123,10 +123,6 @@ h3 {
   align-items: center;
   text-align: center; }
 
-@media only screen and (min-width: 0px) and (max-widht: 768px) {
-  .RRSSTelegram {
-    margin-left: 10px; } }
-
 @media only screen and (min-width: 1024px) {
   .RRSSTelegram {
     margin-left: 20px; } }
@@ -244,13 +240,6 @@ h3 {
   .mentoriasTxtTres {
     grid-area: mentoriasTxtTres; } }
 
-@media only screen and (min-width: 0px) and (max-widht: 768px) {
-  .imgLogoM {
-    display: flex;
-    justify-content: center; }
-  .elementoNavMentorias {
-    padding-left: 10px; } }
-
 /*FIN PAGES MENTORIAS*/
 /*INICIO QUIEN SOY*/
 .contenedorFotoQuienSoy {
@@ -321,6 +310,15 @@ h3 {
     padding-top: 30px; }
   .contenedorFotoQuienSoy {
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  .botonCursoMentoriaDos {
+    margin-top: 20px; }
+  .RRSSTelegram {
+    margin-left: 10px; }
+  .imgLogoM {
+    display: flex;
+    justify-content: center; }
+  .elementoNavMentorias {
+    padding-left: 10px; } }
 
 /*FIN MEDIA QUERIE MOBILE*/
